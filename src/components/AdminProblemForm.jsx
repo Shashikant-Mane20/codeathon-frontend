@@ -4,7 +4,7 @@ const emptyProblem = {
   title: "",
   code: "",
   track: "",
-  level: "Beginner",
+  level: "Easy",
   maxTeamSize: 4,
   shortDescription: "",
   problemStatement: "",
@@ -130,9 +130,9 @@ export const AdminProblemForm = ({ onSubmit, editingProblem, onCancel }) => {
             className="w-full rounded-lg border border-slate-700/80 bg-slate-950/80 px-3 py-2 text-xs md:text-sm text-slate-50
                        outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30 transition"
           >
-            <option>Beginner</option>
-            <option>Intermediate</option>
-            <option>Advanced</option>
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
           </select>
         </div>
 

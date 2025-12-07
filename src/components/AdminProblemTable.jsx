@@ -49,9 +49,9 @@ export const AdminProblemTable = ({ problems, onEdit, onDelete }) => {
               <td className="px-3 md:px-4 py-2.5 whitespace-nowrap">
                 <span
                   className={`inline-flex items-center rounded-full px-2 py-1 text-[10px] md:text-[11px] font-medium ${
-                    p.level === "Advanced"
+                    p.level === "Medium"
                       ? "bg-red-500/10 text-red-300 border border-red-500/40"
-                      : p.level === "Intermediate"
+                      : p.level === "Hard"
                       ? "bg-amber-500/10 text-amber-300 border border-amber-500/40"
                       : "bg-emerald-500/10 text-emerald-300 border border-emerald-500/40"
                   }`}
